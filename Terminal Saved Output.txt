@@ -1,0 +1,754 @@
+Last login: Wed Apr  8 20:02:20 on ttys000
+(base) fatouka@MacBookPro ~ % gh auth login
+zsh: command not found: gh
+(base) fatouka@MacBookPro ~ % brew install git
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Downloading https://ghcr.io/v2/homebrew/core/portable-ruby/blobs/sha256:f41c72b891c40623f9d5cd2135f58a1b8a5c014ae04149888289409316276c72
+######################################################################### 100.0%
+==> Pouring portable-ruby-4.0.2_1.arm64_big_sur.bottle.tar.gz
+==> Homebrew collects anonymous analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics have been recorded yet (nor will be during this `brew` run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+actions-up: Tool to update GitHub Actions to latest versions with SHA pinning
+adplay: Command-line player for OPL2 music
+agent-browser: Browser automation CLI for AI agents
+aicommit2: Reactive CLI that generates commit messages for Git and Jujutsu with AI
+aklomp-base64: Fast Base64 stream encoder/decoder in C99, with SIMD acceleration
+ansible@12: Automate deployment, configuration, and upgrading
+any2fasta: Convert various sequence formats to FASTA
+aoe: Terminal session manager for AI coding agents
+apache-arrow-adbc: Cross-language, Arrow-native database access
+apache-arrow-adbc-glib: GLib bindings for Apache Arrow ADBC
+apache-serf: High-performance asynchronous HTTP client library
+apkeep: Command-line tool for downloading APK files from various sources
+arcadedb: Multi-Model DBMS: Graph, Document, Key/Value, Search, Time Series, Vector
+asc: Fast, lightweight CLI for App Store Connect
+asm-lsp: Language server for NASM/GAS/GO Assembly
+astra: Command-Line Interface for DataStax Astra
+async-profiler: Sampling CPU & HEAP profiler for Java using AsyncGetCallTrace + perf_events
+atuin-server: Sync server for atuin - Improved shell history for zsh, bash, fish and nushell
+auto-editor: Effort free video editing!
+av1an: Cross-platform command-line encoding framework
+aws-spiffe-workload-helper: Helper for providing AWS credentials to workloads using their SPIFFE identity
+azure-dev: Developer CLI that provides commands for working with Azure resources
+azurite: Lightweight server clone of Azure Storage that simulates it locally
+bagel: CLI to audit posture and evaluate compromise blast radius
+bazel@8: Google's own build tool
+beads: Memory upgrade for your coding agent
+beads_viewer: Terminal-based UI for the Beads issue tracker
+betterleaks: Secrets scanner built for configurability and speed
+bitwuzla: SMT solver for bit-vectors, floating-points, arrays and uninterpreted functions
+bookokrat: Terminal EPUB Book Reader
+btllib: Bioinformatics Technology Lab common code library
+buildkitd: Concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit (Daemon)
+bulletty: Pretty feed reader (ATOM/RSS) that stores articles in Markdown files
+bumpp: Interactive CLI that bumps your version numbers and more
+calm-cli: CLI allows you to interact with the Common Architecture Language Model (CALM)
+cargo-features-manager: TUI like cli tool to manage the features of your rust-project dependencies
+carl: Calendar for the command-line
+ccextractor: Tool for extracting closed captions from video files
+cek: Explore the (overlay) filesystem and layers of OCI container images
+checkpwn: Check Have I Been Pwned and see if it's time for you to change passwords
+cinecli: Browse, inspect, and launch movie torrents directly from your terminal
+classifier: Text classification with Bayesian, LSI, Logistic Regression, and kNN
+claude-code-router: Tool to route Claude Code requests to different models and customize any request
+claude-code-templates: CLI tool for configuring and monitoring Claude Code
+cline: AI-powered coding agent for complex work
+clock-rs: Modern, digital clock that effortlessly runs in your terminal
+cloudflare-speed-cli: Cloudflare-based speed test with optional TUI
+cni-plugins: Container Network Interface plugins
+codanna: Code intelligence system with semantic search
+codex-acp: Use Codex from ACP-compatible clients such as Zed!
+container: Create and run Linux containers using lightweight virtual machines
+container-canary: Test and validate container requirements against versioned manifests
+containerd: Open and reliable container runtime
+copilot-language-server: Language Server Protocol server for GitHub Copilot
+corepack: Package acting as bridge between Node projects and their package managers
+cozyhr: Cozy wrapper around Helm and Flux CD for local development
+cpptrace: Simple, portable, and self-contained stacktrace library for C++11 and newer
+crip: Tool to extract server certificates
+cronboard: Terminal-based dashboard for managing cron jobs locally and on servers
+ctags-lsp: LSP implementation using universal-ctags as backend
+ctre: Compile-time PCRE-compatible regular expression matcher for C++
+ctx7: Manage AI coding skills and documentation context
+custom-install: Install CIA files directly to Nintendo 3DS SD card
+cwalk: Cross-platform path library for C/C++
+cyan: iOS app injector and modifier
+dartaotruntime: Command-line tool for running AOT-compiled snapshots of Dart code
+datadog-static-analyzer: Static analysis tool for code quality and security
+dbcsr: Distributed Block Compressed Sparse Row matrix library
+depot: Build your Docker images in the cloud
+devcockpit: TUI system monitor for Apple Silicon
+diffnav: Git diff pager based on delta but with a file tree
+difi: Pixel-perfect terminal diff viewer
+dispenso: High-performance C++ library for parallel programming
+dlpack: Common in-memory tensor structure
+dnspyre: CLI tool for a high QPS DNS benchmark
+docker-engine: Pack, ship and run any application as a lightweight container (Daemon)
+docker-language-server: Language server for Dockerfiles, Compose files, and Bake files
+docmd: Minimal Markdown documentation generator
+doh: Stand-alone DNS-over-HTTPS resolver using libcurl
+dotnet@9: .NET Core
+dovi_convert: Dolby Vision Profile 7 to 8.1 MKV converter
+dtop: Terminal dashboard for Docker monitoring across multiple hosts
+durdraw: Versatile ASCII and ANSI Art text editor for drawing in the terminal
+e1s: TUI for managing AWS ECS, inspired by k9s
+eigen@3: C++ template library for linear algebra
+ekphos: Terminal-based markdown research tool inspired by Obsidian
+erlang-language-platform: LSP server and CLI for the Erlang programming language
+et: Remote terminal with IP roaming
+expert: Official Elixir Language Server Protocol implementation
+fake-gcs-server: Emulator for Google Cloud Storage API
+faketty: Wrapper to exec a command in a pty, even if redirecting the output
+fastrace: Dependency-free traceroute implementation in pure C
+fence: Lightweight sandbox for commands with network and filesystem restrictions
+ffc.h: Single-header C99 accelerated float/double parsing
+ffmpeg-full: Play, record, convert, and stream many audio and video codecs
+filebrowser: Web File Browser
+flecs: Fast entity component system for C & C++
+flowrs: TUI application for Apache Airflow
+fnox: Fort Knox for your secrets - flexible secret management tool
+forgejo-cli: CLI tool for interacting with Forgejo
+fracturedjson: JSON formatter that produces highly readable but fairly compact output
+framework-tool-tui: TUI for controlling and monitoring Framework Computers hardware
+fresh-editor: Text editor for your terminal: easy, powerful and fast
+fzf-tab: Replace zsh completion selection menu with fzf
+garage: S3 object store so reliable you can run it outside datacenters
+garden: Grow and cultivate collections of Git trees
+gastown: Multi-agent workspace manager
+gcl: GNU Common Lisp
+getparty: Multi-part HTTP download manager
+ggml: Tensor library for machine learning
+ghc@9.12: Glorious Glasgow Haskell Compilation System
+ghidra: Multi-platform software reverse engineering framework
+git-flow-next: Modern implementation of the Git-flow branching model
+git-format-staged: Git command to transform staged files using a formatting command
+git-get: Better way to clone, organize and manage multiple git repositories
+git-pages: Scalable static site server for Git forges
+git-pages-cli: Tool for publishing a site to a git-pages server
+git-pkgs: Track package dependencies across git history
+git-xet: Git LFS plugin that uploads and downloads using the Xet protocol
+gitlab-ci-linter: Command-line tool to lint GitLab CI YAML files
+gitlogue: Cinematic Git commit replay tool
+gitnr: Create `.gitignore` using templates from TopTal, GitHub or your own collection
+gittype: CLI code-typing game that turns your source code into typing challenges
+global-arrays: Partitioned Global Address Space (PGAS) library for distributed arrays
+gnuastro: Astronomical data manipulation and analysis utilities and libraries
+go-air: Live reload for Go apps
+go@1.25: Open source programming language to build simple/reliable/efficient software
+goat: General purpose AT Protocol CLI in Go
+gocheat: TUI Cheatsheet for keybindings, hotkeys and more
+goclone: Website Cloner
+gogcli: Google Suite CLI
+googleworkspace-cli: CLI for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more
+gotun: Lightweight HTTP proxy over SSH
+graalvm: JDK distribution with Graal compiler and Native Image
+grafanactl: CLI to interact with Grafana
+graphqlite: SQLite graph database extension
+gruyere: TUI program for viewing and killing processes listening on ports
+gtl: Greg's Template Library of useful classes
+gup: Update binaries installed by go install
+gwctl: CLI for managing and inspecting Gateway API resources in Kubernetes clusters
+hack-browser-data: Command-line tool for decrypting and exporting browser data
+hapless: Run and manage background processes
+happy-coder: CLI for operating AI coding agents from mobile devices
+haraka: Fast, highly extensible, and event driven SMTP server
+harbor-cli: CLI for Harbor container registry
+hayagriva: Bibliography management tool
+hdrhistogram_c: C port of the HdrHistogram
+headscale-cli: CLI for headscale, an open-source implementation of the Tailscale control server
+headson: Head/tail for structured data
+helix-db: Open-source graph-vector database built from scratch in Rust
+helm@3: Kubernetes package manager
+hexhog: Hex viewer/editor
+hf-mcp-server: MCP Server for Hugging Face
+hindent: Haskell pretty printer
+html-to-markdown: Transforms HTML (even entire websites) into clean, readable Markdown
+httptap: HTTP request visualizer with phase-by-phase timing breakdown
+ic-wasm: CLI tool for performing Wasm transformations specific to ICP canisters
+icestorm: Tools for analyzing and creating Lattice iCE40 FPGA bitstream files
+icp-cli: Development tool for building and deploying canisters on ICP
+icu4c@78: C/C++ and Java libraries for Unicode and globalization
+imagemagick-full: Tools and libraries to manipulate images in many formats
+install-nothing: Simulates installing things but doesn't actually install anything
+intelli-shell: Like IntelliSense, but for shells
+ipapatch: CLI tool to patch iOS IPA files and their plugins
+ironclaw: Security-first personal AI assistant with WASM sandbox channels
+joyce: Emulates the Amstrad PCW on Unix, Windows and macOS
+jqfmt: Opinionated formatter for jq
+jsonfmt: Like gofmt, but for JSON files
+jsongrep: Query tool for JSON, YAML, TOML, and other structured formats
+kaf: Modern CLI for Apache Kafka
+kagent: Kubernetes native framework for building AI agents
+kanata-tray: System tray for kanata keyboard remapper
+karakeep: CLI tool for self-hostable bookmark-everything app karakeep
+kekkai: File integrity monitoring tool
+khaos: Kafka traffic simulator for observability and chaos engineering
+kibi: Text editor in ≤1024 lines of code, written in Rust
+kimi-cli: CLI agent for MoonshotAI Kimi platform
+klog: Command-line tool for time tracking in a human-readable, plain-text file format
+ktea: Kafka TUI client
+kubectl-tree: Kubectl plugin to browse Kubernetes object hierarchies as a tree
+kubefwd: Bulk port forwarding Kubernetes services for local development
+kubernetes-cli@1.34: Kubernetes command-line interface
+kyua: Testing framework for infrastructure software
+labctl: CLI tool for interacting with iximiuz labs and playgrounds
+ladybug: Embedded graph database built for query speed and scalability
+landrun: Lightweight, secure sandbox for running Linux processes using Landlock LSM
+lazycut: Terminal-based video trimming TUI
+leetsolv: CLI tool for DSA problem revision with spaced repetition
+letta-code: Memory-first coding agent
+libaegis: Portable C implementations of the AEGIS family of encryption algorithms
+libdecor: Client-side decorations library for Wayland client
+libevdev: Wrapper library for evdev devices
+libigloo: Generic C framework used and developed by the Icecast project
+libkiwix: Common code base for all Kiwix ports
+libks: Foundational support for signalwire C products
+libnpupnp: C++ base UPnP library, derived from Portable UPnP, a.k.a libupnp
+libpathrs: C-friendly API to make path resolution safer on Linux
+libthai: Thai language support library
+libupnpp: C++ wrapper for libnpupnp
+lief: Library to Instrument Executable Formats
+likec4: Architecture modeling tool with live diagrams from code
+linux-headers@6.8: Header files of the Linux kernel
+lispkit: Scheme framework for extension and scripting languages on macOS and iOS
+litra: Control Logitech Litra lights from the command-line
+livereload: Local web server in Python
+lld@21: LLVM Project Linker
+llhttp: Port of http_parser to llparse
+llmfit: Find what models run on your hardware
+llvm@21: Next-gen compiler infrastructure
+ls-hpack: HTTP/2 HPACK header compression library
+lua@5.4: Powerful, lightweight programming language
+mac-cleanup-go: TUI macOS cleaner that scans caches/logs and lets you select what to delete
+macchanger: Change your mac address, for macOS
+magics: ECMWF's meteorological plotting software
+magika: Fast and accurate AI powered file content types detection
+maigret: Collect a dossier on a person by username from thousands of sites
+mail-deduplicate: CLI to deduplicate mails from mail boxes
+mapscii: Whole World In Your Console
+mark: Sync your markdown files with Confluence pages
+matcha: Daily digest generator for your RSS feeds
+mbedtls@3: Cryptographic & SSL/TLS library
+mcat: Terminal image, video, directory, and Markdown viewer
+mdfried: Terminal markdown viewer
+merve: C++ lexer for extracting named exports from CommonJS modules
+micasa: TUI for tracking home projects, maintenance schedules, appliances and quotes
+miniaudio: Audio playback and capture library
+minizign: Minisign reimplemented in Zig
+mipsel-linux-gnu-binutils: GNU Binutils for mipsel-linux-gnu cross development
+mistral-vibe: Minimal CLI coding agent
+mitama-cpp-result: Provides `result<T, E>` and `maybe<T>` and monadic functions for them
+mkbrr: Is a tool to create, modify and inspect torrent files. Fast
+mlx-c: C API for MLX
+models: Fast TUI and CLI for browsing AI models, benchmarks, and coding agents
+mole: Deep clean and optimize your Mac
+mp4ff: Tools for parsing and manipulating MP4/ISOBMFF files
+mq: Jq-like command-line tool for markdown processing
+mufetch: Neofetch-style music cli
+mysql-to-sqlite3: Transfer data from MySQL to SQLite
+nativefiledialog-extended: Native file dialog library with C and C++ bindings
+nbytes: Library of byte handling functions extracted from Node.js core
+neo4j-mcp: Neo4j official Model Context Protocol server for AI tools
+netshow: Interactive network connection monitor with friendly service names
+nextpnr-ice40: Portable FPGA place and route tool for Lattice iCE40
+nfd2nfc: Convert filesystem entry names from NFD to NFC for cross-platform compatibility
+nkt: TUI for fast and simple interacting with your BibLaTeX database
+node@24: Open-source, cross-platform JavaScript runtime environment
+nomad-pack: Templating and packaging tool used with HashiCorp Nomad
+nono: Capability-based sandbox shell for AI agents with OS-enforced isolation
+nullclaw: Tiny autonomous AI assistant infrastructure written in Zig
+nuls: NuShell-inspired ls with colorful table output
+octodns: Tools for managing DNS across multiple providers
+odiff: Very fast SIMD-first image comparison library (with nodejs API)
+oh-my-agent: Portable multi-agent harness for .agents-based skills and workflows
+openlist: New AList fork addressing anti-trust issues
+openskills: Universal skills loader for AI coding agents
+openspec: Spec-driven development (SDD) for AI coding assistants
+opentimestamps-client: Create and verify OpenTimestamps proofs
+overturemaps: Python tools for interacting with Overture Maps data
+oxfmt: High-performance formatting tool for JavaScript and TypeScript
+pake: Turn any webpage into a desktop app with Rust with ease
+papeer: Convert websites into eBooks and Markdown
+papis: Powerful command-line document and bibliography manager
+parqeye: Peek inside Parquet files right from your terminal
+patchpal: AI Assisted Patch Backporting Tool Frontend
+pay: HTTP client that automatically handles 402 Payment Required
+pcapmirror: Tool for capturing network traffic on remote host using TZSP or ERSPAN
+pelican: Static site generator that supports Markdown and reST syntax
+permify: Open-source authorization service & policy engine based on Google Zanzibar
+pet: Simple command-line snippet manager
+pgroll: Postgres zero-downtime migrations made easy
+phantom: CLI tool for seamless parallel development with Git worktrees
+php@8.4: General-purpose scripting language
+pi-coding-agent: AI agent toolkit
+picoclaw: Ultra-efficient personal AI assistant in Go
+picoruby: Smallest Ruby implementation for microcontrollers
+pipewire: Server and user space API to deal with multimedia pipelines
+pipewire-gstreamer: GStreamer Plugin for PipeWire
+pixlet: App runtime and UX toolkit for pixel-based apps
+playwright-cli: CLI for Playwright: record/generate code, inspect selectors, take screenshots
+pocket-tts: Text-to-speech application designed to run efficiently on CPUs
+portless: Replace port numbers with stable, named local URLs for humans and agents
+postgres-language-server: Language Server for Postgres
+powershell: Command-line shell and scripting language
+protobuf@33: Protocol buffers (Google's data interchange format)
+proxelar: Man-in-the-Middle proxy for HTTP/HTTPS traffic
+pvetui: Terminal UI for Proxmox VE
+py7zr: 7-zip in Python
+pyperformance: Python benchmark suite
+q: Tiny command-line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH
+qcoro6: C++ Coroutines for Qt
+qo: Interactive minimalist TUI to query JSON, CSV, and TSV using SQL
+qqqa: Fast, stateless LLM for your shell: qq answers; qa runs commands
+qtcanvaspainter: Accelerated 2D painting solution for Qt Quick and QRhi-based render targets
+qttasktree: General purpose library for asynchronous task execution
+quint: Core tool for the Quint specification language
+rad: Modern CLI scripts made easy
+radicle: Sovereign code forge built on Git
+rails-mcp-server: MCP server for Rails applications
+ralph-orchestrator: Multi-agent orchestration framework for autonomous AI task completion
+reddix: Reddit, refined for the terminal
+redis@8.2: Persistent key-value database, with built-in net interface
+redu: Ncdu for your restic repository
+repeater: Flashcard program that uses spaced repetition
+resterm: Terminal client for .http/.rest files with HTTP, GraphQL, and gRPC support
+rmrfrs: Filesystem cleaning tool
+rockcraft: Tool to create OCI images using the language from Snapcraft and Charmcraft
+rootlesskit: Linux-native "fake root" for implementing rootless containers
+rtk: CLI proxy to minimize LLM token consumption
+ruby@3.4: Powerful, clean, object-oriented scripting language
+rumdl: Markdown Linter and Formatter written in Rust
+run-kit: Universal multi-language runner and smart REPL
+runc: CLI tool for spawning and running containers according to the OCI specification
+rustledger: Fast, pure Rust implementation of Beancount double-entry accounting
+rustpython: Python Interpreter written in Rust
+rustypaste: Minimal file upload/pastebin service
+rustypaste-cli: CLI tool for rustypaste
+rv-r: Declarative R package manager
+rvvm: RISC-V Virtual Machine
+sandvault: Run AI agents isolated in a sandboxed macOS user account
+sarif-fmt: Pretty print SARIF files to easy human readable output
+save3ds_fuse: Extract/Import/FUSE for 3DS save/extdata/database
+scala-cli: Scala language runner and build tool
+sem-cli: Semantic version control CLI with entity-level diffs and blame
+shadcn: CLI for adding components to your project
+sheenbidi: Fast and stable implementation of the Unicode Bidirectional Algorithm
+sheets: Terminal based spreadsheet tool
+shiki: Beautiful yet powerful syntax highlighter
+shortest: AI-powered natural language end-to-end testing framework
+signalwire-client-c: SignalWire C Client SDK
+skills: Open agent skills ecosystem
+skillshare: Sync skills across AI CLI tools
+skip: Tool for building Swift apps for Android
+slicot: Fortran subroutines library for systems and control
+snitch: Prettier way to inspect network connections
+spicedb: Open Source, Google Zanzibar-inspired database
+spiffe-helper: Tool that can be used to retrieve and manage SVIDs on behalf of a workload
+sqlite3-to-mysql: Transfer data from SQLite to MySQL
+sss-cli: Shamir secret share command-line interface
+static-web-apps-cli: SWA CLI serves as a local development tool for Azure Static Web Apps
+strands-agents-sops: Standard Operating Procedures for AI agents using natural language
+structurizr: Software architecture models as code
+summarize: Multi-modal AI tool to extract and summarize content
+supabase: Open source Firebase alternative
+superseedr: BitTorrent Client in your Terminal
+svt-vp9: Scalable Video Technology for VP9 Encoder
+svu: Semantic version utility
+t2sz: Compress a file into a seekable zstd with per-file seeking for tar archives
+talm: Manage Talos Linux configurations the GitOps way
+taskline: Tasks, boards & notes for the command-line habitat
+teamtype: Peer-to-peer, editor-agnostic collaborative editing of local text files
+termframe: Terminal output SVG screenshot tool
+termshot: Creates screenshots based on terminal command output
+termusic: Music Player TUI written in Rust
+tfclean: Remove applied moved block, import block, etc
+tfplugingen-openapi: OpenAPI to Terraform Provider Code Generation Specification
+tftp-now: Single-binary TFTP server and client that you can use right now
+thorvg: Lightweight portable library used for drawing vector-based scenes and animations
+tini: Tiny but valid init for containers
+tock: Powerful time tracking tool for the command-line
+toktop: LLM usage monitor in terminal
+topicctl: Declarative Kafka topic management
+topydo: Todo list application using the todo.txt format
+torf-cli: CLI tool for creating, reading and editing torrent files
+torrra: Find and download torrents without leaving your CLI
+tpix: Simple terminal image viewer using the Kitty graphics protocol
+transifex-cli: Transifex command-line client
+tree-sitter-go: Go grammar for tree-sitter
+tree-sitter-python: Python grammar for tree-sitter
+tree-sitter-ruby: Ruby grammar for tree-sitter
+tree-sitter@0.25: Incremental parsing library
+treemd: TUI and CLI dual pane markdown viewer
+tronbyt-server: Manage your apps on your Tronbyt (flashed Tidbyt) completely locally
+try-rs: Temporary workspace manager for fast experimentation in the terminal
+ts_query_ls: LSP implementation for Tree-sitter's query files
+tscriptify: Golang struct to TypeScript class/interface converter
+tsshd: UDP SSH server for trzsz-ssh (tssh) with roaming support
+tuckr: Super powered replacement for GNU Stow
+tuios: Terminal UI OS (Terminal Multiplexer)
+ty: Extremely fast Python type checker, written in Rust
+umoci: Reference OCI implementation for creating, modifying and inspecting images
+upterm: Instant terminal sharing
+vacuum: World's fastest OpenAPI & Swagger linter
+vampire: High-performance theorem prover
+vapoursynth-bestsource: Audio/video source and FFmpeg wrapper
+vapoursynth-bm3d: BM3D denoising filter for VapourSynth
+vapoursynth-descale: VapourSynth plugin to undo upscaling
+vgo: Project scaffolder for Go, written in Go
+vibecheck: AI-powered git commit assistant written in Go
+vtcode: CLI Semantic Coding Agent
+vtsls: LSP wrapper for typescript extension of vscode
+vuls: Agentless Vulnerability Scanner for Linux/FreeBSD
+wasm-bindgen: Facilitating high-level interactions between Wasm modules and JavaScript
+weave: Entity-level semantic merge driver for Git using tree-sitter
+whodb-cli: Database management CLI with TUI interface, MCP server support, AI, and more
+whosthere: LAN discovery tool with a modern TUI written in Go
+wifitui: Fast featureful friendly wifi terminal UI
+wik: View Wikipedia pages from your terminal
+wireplumber: Session / policy manager implementation for PipeWire
+witr: Why is this running?
+wmbusmeters: Read wired or wireless mbus protocol to acquire utility meter readings
+worktrunk: CLI for Git worktree management, designed for parallel AI agent workflows
+wuchale: Protobuf-like i18n from plain code
+x-cli: Command-line power tool for Twitter
+xcp: Fast & lightweight command-line tool for managing Xcode projects, built in Swift
+xcsift: Swift tool to parse xcodebuild output for coding agents
+xcursorgen: Create an X cursor file from a collection of PNG images
+xleak: Terminal Excel viewer with an interactive TUI
+yap: On-device audio transcription using Speech.framework
+yelp-xsl: Document transformations from Yelp
+zeptoclaw: Lightweight personal AI gateway with layered safety controls
+zeroclaw: Rust-first autonomous agent runtime
+zsign: Cross-platform codesigning tool for iOS apps
+zvbi: Vertical Blanking Interval (VBI) decoding library
+zxc: High-performance asymmetric lossless compression library
+zxing-cpp: Multi-format barcode image processing library written in C++
+zycore-c: Zyan Core Library for C
+
+You have 19 outdated formulae installed.
+
+==> Fetching downloads for: git
+✔︎ Bottle Manifest git (2.53.0_1)                     Downloaded   21.8KB/ 21.8KB
+✔︎ Bottle Manifest pcre2 (10.47_1)                    Downloaded   11.7KB/ 11.7KB
+✔︎ Bottle Manifest libunistring (1.4.2)               Downloaded    7.3KB/  7.3KB
+✔︎ Bottle Manifest gettext (1.0)                      Downloaded   13.7KB/ 13.7KB
+✔︎ Bottle pcre2 (10.47_1)                             Downloaded    2.4MB/  2.4MB
+✔︎ Bottle libunistring (1.4.2)                        Downloaded    1.9MB/  1.9MB
+✔︎ Bottle gettext (1.0)                               Downloaded   10.2MB/ 10.2MB
+✔︎ Bottle git (2.53.0_1)                              Downloaded   22.5MB/ 22.5MB
+==> Installing dependencies for git: pcre2, libunistring and gettext
+==> Installing git dependency: pcre2
+==> Pouring pcre2--10.47_1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pcre2/10.47_1: 244 files, 7.3MB
+==> Installing git dependency: libunistring
+==> Pouring libunistring--1.4.2.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libunistring/1.4.2: 59 files, 5.8MB
+==> Installing git dependency: gettext
+==> Pouring gettext--1.0.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gettext/1.0: 2,499 files, 35.3MB
+==> Installing git
+==> Pouring git--2.53.0_1.arm64_tahoe.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+==> Summary
+🍺  /opt/homebrew/Cellar/git/2.53.0_1: 1,741 files, 62.0MB
+==> Running `brew cleanup git`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/fatouka/Library/Caches/Homebrew/basex_bottle_manifest--12.0... (9.9KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/basex--12.0... (11.8MB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/cairo_bottle_manifest--1.18.4-1... (37KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/cairo--1.18.4... (1.6MB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/fontconfig_bottle_manifest--2.17.1-1... (17.3KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/fontconfig--2.17.1... (400.6KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/freetype_bottle_manifest--2.14.1_1... (9.2KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/freetype--2.14.1_1... (991KB)
+Removing: /opt/homebrew/Cellar/gettext/0.26... (2,428 files, 29.6MB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/gettext_bottle_manifest--0.26... (17.9KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/gettext--0.26... (9.6MB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/giflib_bottle_manifest--5.2.2... (10.8KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/giflib--5.2.2... (152.9KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/glib_bottle_manifest--2.86.0... (24.4KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/glib--2.86.0... (9.2MB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/graphite2_bottle_manifest--1.3.14-1... (8.0KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/graphite2--1.3.14... (92.7KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/harfbuzz_bottle_manifest--12.1.0-1... (29.9KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/harfbuzz--12.1.0... (3.3MB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/icu4c@77_bottle_manifest--77.1... (12.6KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/icu4c@77--77.1... (31.1MB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/jpeg-turbo_bottle_manifest--3.1.2... (10.7KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/jpeg-turbo--3.1.2... (1MB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/libpng_bottle_manifest--1.6.50... (10.9KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/libpng--1.6.50... (457.3KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/libtiff_bottle_manifest--4.7.1... (12.5KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/libtiff--4.7.1... (1.9MB)
+Removing: /opt/homebrew/Cellar/libunistring/1.4.1... (59 files, 5.8MB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/libunistring_bottle_manifest--1.4.1... (7.3KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/libunistring--1.4.1... (1.9MB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/libx11_bottle_manifest--1.8.12... (18.3KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/libx11--1.8.12... (2.3MB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/libxau_bottle_manifest--1.0.12... (10.3KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/libxau--1.0.12... (33.4KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/libxcb_bottle_manifest--1.17.0-1... (19.2KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/libxcb--1.17.0... (1MB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/libxdmcp_bottle_manifest--1.1.5... (12.0KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/libxdmcp--1.1.5... (37.2KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/libxext_bottle_manifest--1.3.6... (16.8KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/libxext--1.3.6... (108.8KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/libxrender_bottle_manifest--0.9.12... (14.2KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/libxrender--0.9.12... (54.6KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/little-cms2_bottle_manifest--2.17... (15KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/little-cms2--2.17... (433.1KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/lz4_bottle_manifest--1.10.0-1... (13.8KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/lz4--1.10.0... (276.1KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/lzo_bottle_manifest--2.10... (16.7KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/lzo--2.10... (148.3KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/openjdk_bottle_manifest--25... (39.7KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/openjdk--25... (218MB)
+Removing: /opt/homebrew/Cellar/pcre2/10.46... (242 files, 7.1MB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/pcre2_bottle_manifest--10.46... (12.9KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/pcre2--10.46... (2.4MB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/pixman_bottle_manifest--0.46.4-1... (9.3KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/pixman--0.46.4... (416.3KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/xorgproto_bottle_manifest--2024.1... (20.6KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/xorgproto--2024.1... (717.1KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/xz_bottle_manifest--5.8.1... (14.5KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/xz--5.8.1... (748.1KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/zstd_bottle_manifest--1.5.7-1... (16.2KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/zstd--1.5.7... (788.5KB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/portable-ruby-3.4.5.arm64_big_sur.bottle.tar.gz... (12.1MB)
+Removing: /Users/fatouka/Library/Caches/Homebrew/bootsnap/351eae37507e977972fffae3095d615ae5994d07a8ec3fe15eaa054d17c442bf... (635 files, 5.4MB)
+Removing: /Users/fatouka/Library/Logs/Homebrew/glib... (64B)
+Removing: /Users/fatouka/Library/Logs/Homebrew/fontconfig... (6.5KB)
+Pruned 0 symbolic links and 2 directories from /opt/homebrew
+==> Caveats
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> git
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+(base) fatouka@MacBookPro ~ % brew install --cask git-credential-manager
+==> Fetching downloads for: git-credential-manager
+⠞ Cask git-credential-manager (2.7.3)                Downloaded   41.9MB/ 41.9M
+✔︎ Cask git-credential-manager (2.7.3)                Verified     41.9MB/ 41.9MB
+==> Installing Cask git-credential-manager
+==> Running installer for git-credential-manager with `sudo` (which may request 
+Password:
+Sorry, try again.
+Password:
+installer: Package name is Git Credential Manager
+installer: Installing at base path /
+installer: The install was successful.
+🍺  git-credential-manager was successfully installed!
+(base) fatouka@MacBookPro ~ % cd fk-repo                                       
+(base) fatouka@MacBookPro fk-repo % git clone https://github.com/wou-cs/hw01-basics-of-tdd-fatouxka-2.git
+Cloning into 'hw01-basics-of-tdd-fatouxka-2'...
+info: please complete authentication in your browser...
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 8 (delta 0), reused 7 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (8/8), 8.66 KiB | 1.44 MiB/s, done.
+(base) fatouka@MacBookPro fk-repo % ls
+About.md			hw01-basics-of-tdd-fatouxka-2
+Agent
+(base) fatouka@MacBookPro fk-repo % cd roman-numerals
+cd: no such file or directory: roman-numerals
+(base) fatouka@MacBookPro fk-repo % uv run pytest
+============================= test session starts ==============================
+platform darwin -- Python 3.13.9, pytest-8.4.2, pluggy-1.5.0
+rootdir: /Users/fatouka/fk-repo
+plugins: anyio-4.10.0
+collected 1 item                                                               
+
+hw01-basics-of-tdd-fatouxka-2/roman_test.py .                            [100%]
+
+============================== 1 passed in 0.02s ===============================
+(base) fatouka@MacBookPro fk-repo % uv run pytest
+============================= test session starts ==============================
+platform darwin -- Python 3.13.9, pytest-8.4.2, pluggy-1.5.0
+rootdir: /Users/fatouka/fk-repo
+plugins: anyio-4.10.0
+collected 1 item                                                               
+
+hw01-basics-of-tdd-fatouxka-2/roman_test.py .                            [100%]
+
+============================== 1 passed in 0.01s ===============================
+(base) fatouka@MacBookPro fk-repo % git add .
+git commit -m "Add failing test for converting 2 to Roman numeral"
+warning: adding embedded git repository: hw01-basics-of-tdd-fatouxka-2
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint: 	git submodule add <url> hw01-basics-of-tdd-fatouxka-2
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint: 	git rm --cached hw01-basics-of-tdd-fatouxka-2
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config set advice.addEmbeddedRepo false"
+[main e163e67] Add failing test for converting 2 to Roman numeral
+ 2 files changed, 1 insertion(+)
+ create mode 100644 Agent
+ create mode 160000 hw01-basics-of-tdd-fatouxka-2
+(base) fatouka@MacBookPro fk-repo % uv run pytest
+============================= test session starts ==============================
+platform darwin -- Python 3.13.9, pytest-8.4.2, pluggy-1.5.0
+rootdir: /Users/fatouka/fk-repo
+plugins: anyio-4.10.0
+collected 1 item                                                               
+
+hw01-basics-of-tdd-fatouxka-2/roman_test.py .                            [100%]
+
+============================== 1 passed in 0.01s ===============================
+(base) fatouka@MacBookPro fk-repo % git commit -am "Implement conversion for number 2"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) fatouka@MacBookPro fk-repo % cd hw01-basics-of-tdd-fatouxka-2
+uv sync
+uv run pytest
+warning: The `tool.uv.dev-dependencies` field (used in `pyproject.toml`) is deprecated and will be removed in a future release; use `dependency-groups.dev` instead
+Using CPython 3.13.9 interpreter at: /opt/anaconda3/bin/python3
+Creating virtual environment at: .venv
+Resolved 10 packages in 11ms
+Prepared 5 packages in 6.26s
+Installed 5 packages in 18ms
+ + iniconfig==2.3.0
+ + packaging==26.0
+ + pluggy==1.6.0
+ + pygments==2.19.2
+ + pytest==9.0.2
+warning: The `tool.uv.dev-dependencies` field (used in `pyproject.toml`) is deprecated and will be removed in a future release; use `dependency-groups.dev` instead
+============================= test session starts ==============================
+platform darwin -- Python 3.13.9, pytest-9.0.2, pluggy-1.6.0
+rootdir: /Users/fatouka/fk-repo/hw01-basics-of-tdd-fatouxka-2
+configfile: pyproject.toml
+collected 1 item                                                               
+
+roman_test.py .                                                          [100%]
+
+============================== 1 passed in 0.00s ===============================
+(base) fatouka@MacBookPro hw01-basics-of-tdd-fatouxka-2 % uv run pytest
+warning: The `tool.uv.dev-dependencies` field (used in `pyproject.toml`) is deprecated and will be removed in a future release; use `dependency-groups.dev` instead
+============================= test session starts ==============================
+platform darwin -- Python 3.13.9, pytest-9.0.2, pluggy-1.6.0
+rootdir: /Users/fatouka/fk-repo/hw01-basics-of-tdd-fatouxka-2
+configfile: pyproject.toml
+collected 1 item                                                               
+
+roman_test.py .                                                          [100%]
+
+============================== 1 passed in 0.00s ===============================
+(base) fatouka@MacBookPro hw01-basics-of-tdd-fatouxka-2 % git commit --allow-empty -m "Refactor initial implementation
+dquote> git commit --allow-empty -m                                 
+
+No structural changes needed after first passing test"
+[main 5b49e09] Refactor initial implementation git commit --allow-empty -m
+(base) fatouka@MacBookPro hw01-basics-of-tdd-fatouxka-2 % git commit -am "Implement minimal conversion for 1
+
+Returns 'I' for any input to satisfy initial test"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) fatouka@MacBookPro hw01-basics-of-tdd-fatouxka-2 % git commit -am "Support conversion for 2
+
+Handles simple additive case for 2"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) fatouka@MacBookPro hw01-basics-of-tdd-fatouxka-2 % git commit -am "Add failing test for subtractive case 4"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) fatouka@MacBookPro hw01-basics-of-tdd-fatouxka-2 % git push
+Enumerating objects: 1, done.
+Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1), 256 bytes | 256.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/wou-cs/hw01-basics-of-tdd-fatouxka-2.git
+   2f90edd..5b49e09  main -> main
+(base) fatouka@MacBookPro hw01-basics-of-tdd-fatouxka-2 % git commit -am "Add failing test for converting 5"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) fatouka@MacBookPro hw01-basics-of-tdd-fatouxka-2 % git commit -am "Implement conversion for 5"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) fatouka@MacBookPro hw01-basics-of-tdd-fatouxka-2 % git commit -am "Add failing test for subtractive case 9"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) fatouka@MacBookPro hw01-basics-of-tdd-fatouxka-2 % git commit -am "Implement subtractive notation for 9"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) fatouka@MacBookPro hw01-basics-of-tdd-fatouxka-2 % git commit -am "Refactor to generalized Roman numeral conversion
+
+Replaces conditionals with scalable mapping approach"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) fatouka@MacBookPro hw01-basics-of-tdd-fatouxka-2 % git commit -am "Add test for 10 conversion"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) fatouka@MacBookPro hw01-basics-of-tdd-fatouxka-2 % git commit -am "Add test for 40 conversion"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) fatouka@MacBookPro hw01-basics-of-tdd-fatouxka-2 % git commit -am "Add test for 50 conversion"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) fatouka@MacBookPro hw01-basics-of-tdd-fatouxka-2 % git commit -am "Add test for 90 conversion"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) fatouka@MacBookPro hw01-basics-of-tdd-fatouxka-2 % git commit -am "Add test for 109 conversion
+
+Ensures upper bound requirement is met"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) fatouka@MacBookPro hw01-basics-of-tdd-fatouxka-2 % git push origin main
+Everything up-to-date
+(base) fatouka@MacBookPro hw01-basics-of-tdd-fatouxka-2 % 
